@@ -1,2 +1,22 @@
-# book-genre-classifier
-Multi-label book genre classification using Goodreads dataset. The project explores different machine learning and deep learning approaches (TF-IDF, Dense Networks, LSTM) to predict book genres from text descriptions, including multiple experimental versions and a final optimized model.
+# Book Genre Classifier
+
+Multi-label book genre classification using book descriptions.
+
+## Dataset
+- Goodreads Book Genres Dataset
+
+## Experiments
+- Dataset exploration
+- TF-IDF + Dense Network
+- LSTM models
+- Multi-label classification
+
+## Final Model
+- Multi-label neural network
+- Binary cross entropy loss
+- Early stopping
+- Model checkpointing
+
+## Results
+- Validation loss: ~0.28
+- Binary accuracy: ~88%
