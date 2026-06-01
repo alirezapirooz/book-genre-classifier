@@ -1,22 +1,55 @@
-# Book Genre Classifier
+# 📚✨ Book Genre Classification (9-Class NLP Project)
 
-Multi-label book genre classification using book descriptions.
+🚀 A deep learning NLP project that classifies book/text descriptions into 9 different genres using an LSTM-based neural network.
 
-## Dataset
-- Goodreads Book Genres Dataset
+---
 
-## Experiments
-- Dataset exploration
-- TF-IDF + Dense Network
-- LSTM models
-- Multi-label classification
+# 🔥 Project Overview
 
-## Final Model
-- Multi-label neural network
-- Binary cross entropy loss
-- Early stopping
-- Model checkpointing
+📖 This project takes a text description of a book and predicts its genre using a trained deep learning model.
 
-## Results
-- Validation loss: ~0.28
-- Binary accuracy: ~88%
+🧠 It understands semantic meaning using NLP and classifies text into one of 9 genres.
+
+---
+
+# 🎯 Supported Genres
+
+📌 History & Politics  
+💊 Health & Wellness  
+🔍 Mystery & Thriller  
+🚀 Science Fiction & Fantasy  
+🌍 Countries & Geography  
+❤️ Romance  
+🧠 Philosophy & Religion  
+🔬 Science & Technology  
+👶 Children & Young Adult  
+
+---
+
+# 🧠 Model Architecture
+
+⚙️ Tokenization (Keras Tokenizer)  
+📏 Padding (max length = 200)  
+🧩 Embedding Layer  
+🔁 LSTM Network  
+🎯 Dense Softmax Output (9 classes)
+
+---
+
+# 📊 Performance
+
+📈 Validation AUC: ~0.75 – 0.77  
+📉 Accuracy: ~0.34 – 0.40  
+
+⚠️ Note:  
+Model performs better on clear genres like Mystery / Fantasy / Romance.
+
+---
+
+# ⚙️ Features
+
+✨ Real-time CLI prediction system  
+🔥 Top-K genre probabilities  
+⚠️ Low confidence detection (Unknown handling)  
+⚖️ Bias adjustment for imbalanced classes  
+🧹 Clean preprocessing pipeline  
